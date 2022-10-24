@@ -41,7 +41,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
     - name: Install dependencies
-      run: pnpm install
+      run: cd vue-instantsearch-vue3 && pnpm install
 
     - name: Test build
       run: pnpm build
