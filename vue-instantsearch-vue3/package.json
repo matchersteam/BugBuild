@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3333 --open",
     "start": "vite",
-    "build": "vite build",
+    "build": "vite-ssg build",
     "preview": "vite preview"
   },
   "dependencies": {
     "algoliasearch": "4.12.1",
+    "vite-ssg": "^0.21.1",
     "vue": "3.2.25",
-    "vue-instantsearch": "4.4.2"
+    "vue-instantsearch": "4.6.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "2.2.0",
