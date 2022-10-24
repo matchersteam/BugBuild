@@ -44,4 +44,4 @@ jobs:
       run: cd vue-instantsearch-vue3 && pnpm install
 
     - name: Test build
-      run: pnpm build
+      run: cd vue-instantsearch-vue3 && pnpm build
