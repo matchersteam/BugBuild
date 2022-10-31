@@ -38,7 +38,7 @@
 
 <script setup lang="ts">
 import algoliasearch from 'algoliasearch/lite.js';
-import InstantSearch from 'vue-instantsearch/vue3/es/src/components/InstantSearch.js';
+import InstantSearch from 'vue-instantsearch/vue3/es/src/components/InstantSearch';
 import SearchBox from 'vue-instantsearch/vue3/es/src/components/SearchBox.vue';
 import RefinementList from 'vue-instantsearch/vue3/es/src/components/RefinementList.vue';
 import StateResults from 'vue-instantsearch/vue3/es/src/components/StateResults.vue';
